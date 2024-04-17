@@ -1,0 +1,101 @@
+.purchaseContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center; 
+}
+
+.purchaseHeader {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ticketItem {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ticketTitle {
+    font-size: 18px;
+    color: #333;
+}
+
+.quantityInput {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.removeButton {
+    padding: 5px 10px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeButton:hover {
+    background-color: #ff7875;
+}
+
+.checkoutButton {
+    background-color: #4CAF50; /* Green color for primary actions like Checkout */
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 200px; 
+}
+
+.checkoutButton:hover {
+    background-color: #45a049;
+}
+
+.totalAmount {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.error {
+    color: #f44336;  /* Red color for errors */
+    margin: 10px 0;
+    text-align: center;
+}
+
+.addMoreTicketsButton{
+    background-color: #007bff; 
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 200px; 
+    margin-top: 10px; 
+}
+
+
+
+.addMoreTicketsButton:hover {
+    background-color: #0056b3;
+}
+
+.buttonGroup {
+    text-align: right;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,35 @@
+.confirmationContainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.confirmationHeader {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.confirmationText {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.homeButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.homeButton:hover {
+    background-color: #0056b3;
+}
